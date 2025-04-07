@@ -1,24 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Profile Showcase Website
+
+A responsive website built with Next.js, Tailwind CSS, and Flowbite React that showcases user profiles with a modern UI.
+
+## Features
+
+- **Hero Carousel**: A full-width carousel with 3 slides that autorotate every 4 seconds
+- **Featured Profiles Section**: Displays profile cards with hover effects and modal interactions
+- **Responsive Design**: Fully responsive layout that works on mobile and desktop
+
+## Technologies Used
+
+- **Next.js 15**: React framework for production
+- **Tailwind CSS**: Utility-first CSS framework
+- **Flowbite React**: UI component library built on top of Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Structure
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `src/components/Hero`: Hero carousel component
+- `src/components/ProfileSection`: Profile section components
+- `src/data/profiles.ts`: Profile data
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Hero Section with autorotating carousel
+- Featured Profiles section with hover effects
+- Profile Modal with detailed information
 
 ## Learn More
 

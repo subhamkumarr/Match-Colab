@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../../.flowbite-react/class-list.json";
+@import "./carousel-overrides.css";
 
 :root {
   --background: #ffffff;
@@ -23,4 +26,33 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Global scrollbar hiding */
+* {
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 0px; /* Hide horizontal scrollbars */
+}
+
+/* Hide carousel scrollbar */
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel .slick-dots {
+  display: none !important;
+}
+
+.carousel .slick-slider {
+  position: relative;
+  bottom: 0 !important;
+}
+
+.carousel .slick-dots-wrapper {
+  display: none !important;
 }

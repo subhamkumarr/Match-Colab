@@ -1,0 +1,36 @@
+/* Flowbite Carousel Overrides */
+
+/* Hide horizontal scroller */
+.flowbite-carousel .slick-dots {
+  display: none !important;
+}
+
+.flowbite-carousel .slick-slider {
+  bottom: 0 !important;
+}
+
+.flowbite-carousel .slick-dots-wrapper {
+  display: none !important;
+}
+
+/* Hide scrollbars completely */
+.flowbite-carousel .slick-slider,
+.flowbite-carousel .slick-list,
+.flowbite-carousel .slick-track {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.flowbite-carousel .slick-slider::-webkit-scrollbar,
+.flowbite-carousel .slick-list::-webkit-scrollbar,
+.flowbite-carousel .slick-track::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Other carousel styling */
+.flowbite-carousel .slick-prev,
+.flowbite-carousel .slick-next {
+  z-index: 50;
+} 
