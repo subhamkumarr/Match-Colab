@@ -35,9 +35,9 @@ A responsive website built with Next.js, Tailwind CSS, and Flowbite React that s
 
 ## Screenshots
 
-- Hero Section with autorotating carousel
-- Featured Profiles section with hover effects
-- Profile Modal with detailed information
+### Hero Section and Featured Profiles
+
+![Hero Section and Featured Profiles](./path-to-your-screenshot.png)
 
 ## Learn More
 
